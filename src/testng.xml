@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <test name="FirstTest">
+        <parameter name="first" value="10" />
+        <parameter name="second" value="21" />
+        <classes>
+            <class name="application.MathTest" />
+            <class name="application.StringOperatorTest" />
+        </classes>
+    </test>
+</suite>
